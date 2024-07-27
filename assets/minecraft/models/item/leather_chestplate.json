@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_chestplate"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 2020101 }, "model": "lorotarmory:item/armor/gunner/gunner_chestplate" },
+    { "predicate": { "custom_model_data": 2020201 }, "model": "lorotarmory:item/armor/engineer/engineer_chestplate" },
+    { "predicate": { "custom_model_data": 2020301 }, "model": "lorotarmory:item/armor/recon/recon_chestplate" },
+    { "predicate": { "custom_model_data": 2020401 }, "model": "lorotarmory:item/armor/guard/guard_chestplate" },
+    { "predicate": { "custom_model_data": 2020501 }, "model": "lorotarmory:item/armor/medic/medic_chestplate" }
+  ]
+}

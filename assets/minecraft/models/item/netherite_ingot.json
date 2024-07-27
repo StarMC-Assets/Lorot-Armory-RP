@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	  "layer0": "minecraft:item/netherite_ingot"
+  },
+  "overrides": [
+	  { "predicate": { "custom_model_data": 1 }, "model": "lorotarmory:item/cuffs" },
+	  { "predicate": { "custom_model_data": 2 }, "model": "lorotarmory:item/battery" }, 
+	  { "predicate": { "custom_model_data": 3 }, "model": "lorotarmory:item/datapad" },
+    { "predicate": { "custom_model_data": 4 }, "model": "lorotarmory:item/backpack" }
+  ]
+}

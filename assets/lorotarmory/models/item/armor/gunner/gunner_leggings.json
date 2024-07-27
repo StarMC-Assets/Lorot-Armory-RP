@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lorotarmory:item/armor/gunner/gunner_leggings",
+    "layer1": "lorotarmory:item/armor/gunner/gunner_leggings"
+  }
+}
