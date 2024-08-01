@@ -14,6 +14,7 @@
     { "predicate": { "custom_model_data": 8 }, "model": "lorotarmory:item/blasters/e-5s" },
     { "predicate": { "custom_model_data": 9 }, "model": "lorotarmory:item/blasters/e-60r" },
     { "predicate": { "custom_model_data": 10 }, "model": "lorotarmory:item/blasters/e-5c" },
+    { "predicate": { "custom_model_data": 11 }, "model": "lorotarmory:item/blasters/rg-4d" },
 
 	  { "predicate": { "custom_model_data": 1001 }, "model": "lorotarmory:item/blasters/dc-15_scope" },
     { "predicate": { "custom_model_data": 1002 }, "model": "lorotarmory:item/blasters/dc-15a_scope" },
@@ -25,6 +26,7 @@
     { "predicate": { "custom_model_data": 1008 }, "model": "lorotarmory:item/blasters/e-5s_scope" },
     { "predicate": { "custom_model_data": 1009 }, "model": "lorotarmory:item/blasters/e-60r_scope" },
     { "predicate": { "custom_model_data": 1010 }, "model": "lorotarmory:item/blasters/e-5c_scope" },
+    { "predicate": { "custom_model_data": 1011 }, "model": "lorotarmory:item/blasters/rg-4d_scope" },
 
 	  { "predicate": { "custom_model_data": 2001 }, "model": "lorotarmory:item/blasters/dc-15_sprint" },
     { "predicate": { "custom_model_data": 2002 }, "model": "lorotarmory:item/blasters/dc-15a_sprint" },
@@ -36,6 +38,7 @@
     { "predicate": { "custom_model_data": 2008 }, "model": "lorotarmory:item/blasters/e-5s_sprint" },
     { "predicate": { "custom_model_data": 2009 }, "model": "lorotarmory:item/blasters/e-60r_sprint" },
     { "predicate": { "custom_model_data": 2010 }, "model": "lorotarmory:item/blasters/e-5c_sprint" },
+    { "predicate": { "custom_model_data": 2011 }, "model": "lorotarmory:item/blasters/rg-4d_sprint" },
 
 	  { "predicate": { "custom_model_data": 3001 }, "model": "lorotarmory:item/blasters/dc-15_reload" },
     { "predicate": { "custom_model_data": 3002 }, "model": "lorotarmory:item/blasters/dc-15a_reload" },
@@ -46,6 +49,7 @@
     { "predicate": { "custom_model_data": 3007 }, "model": "lorotarmory:item/blasters/rps-6_reload" },
     { "predicate": { "custom_model_data": 3008 }, "model": "lorotarmory:item/blasters/e-5s_reload" },
     { "predicate": { "custom_model_data": 3009 }, "model": "lorotarmory:item/blasters/e-60r_reload" },
-    { "predicate": { "custom_model_data": 3010 }, "model": "lorotarmory:item/blasters/e-5c_reload" }
+    { "predicate": { "custom_model_data": 3010 }, "model": "lorotarmory:item/blasters/e-5c_reload" },
+    { "predicate": { "custom_model_data": 3011 }, "model": "lorotarmory:item/blasters/rg-4d_reload" }
   ]
 }
