@@ -1,4 +1,4 @@
-# StarMC Equipment RP
+# Lorot Armory RP
 
 Использованные шейдеры:
 - [VanillaDynamicEmissives](https://github.com/ShockMicro/VanillaDynamicEmissives) от [ShockMicro](https://github.com/ShockMicro)
