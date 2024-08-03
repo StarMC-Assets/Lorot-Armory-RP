@@ -7,6 +7,7 @@
     { "predicate": { "custom_model_data": 1 }, "model": "lorotarmory:item/ammo/smallcartridge"},
     { "predicate": { "custom_model_data": 2 }, "model": "lorotarmory:item/ammo/mediumcartridge"},
     { "predicate": { "custom_model_data": 3 }, "model": "lorotarmory:item/ammo/bigcartridge"},
-    { "predicate": { "custom_model_data": 4 }, "model": "lorotarmory:item/ammo/rocket"}
+    { "predicate": { "custom_model_data": 4 }, "model": "lorotarmory:item/ammo/rocket"},
+    { "predicate": { "custom_model_data": 5 }, "model": "lorotarmory:item/battery" }
   ]
 }
