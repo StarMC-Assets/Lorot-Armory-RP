@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "lorotarmory:item/armor/guard/guard_chestplate",
-    "layer1": "lorotarmory:item/armor/guard/guard_chestplate"
-  }
-}

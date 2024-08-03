@@ -4,10 +4,10 @@
     "layer0": "minecraft:item/leather_boots"
   },
   "overrides": [
-    { "predicate": { "custom_model_data": 2040101 }, "model": "lorotarmory:item/armor/gunner/gunner_boots" },
-    { "predicate": { "custom_model_data": 2040201 }, "model": "lorotarmory:item/armor/engineer/engineer_boots" },
-    { "predicate": { "custom_model_data": 2040301 }, "model": "lorotarmory:item/armor/recon/recon_boots" },
-    { "predicate": { "custom_model_data": 2040401 }, "model": "lorotarmory:item/armor/guard/guard_boots" },
-    { "predicate": { "custom_model_data": 2040501 }, "model": "lorotarmory:item/armor/medic/medic_boots" }
+    { "predicate": { "custom_model_data": 2040101 }, "model": "lorotarmory:item/armor/white/white_boots" },
+    { "predicate": { "custom_model_data": 2040201 }, "model": "lorotarmory:item/armor/yellow/yellow_boots" },
+    { "predicate": { "custom_model_data": 2040301 }, "model": "lorotarmory:item/armor/green/green_boots" },
+    { "predicate": { "custom_model_data": 2040401 }, "model": "lorotarmory:item/armor/red/red_boots" },
+    { "predicate": { "custom_model_data": 2040501 }, "model": "lorotarmory:item/armor/blue/blue_boots" }
   ]
 }

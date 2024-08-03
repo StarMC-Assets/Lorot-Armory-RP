@@ -4,10 +4,10 @@
     "layer0": "minecraft:item/leather_helmet"
   },
   "overrides": [
-    { "predicate": { "custom_model_data": 2010101 }, "model": "lorotarmory:item/armor/gunner/gunner_helmet" },
-    { "predicate": { "custom_model_data": 2010201 }, "model": "lorotarmory:item/armor/engineer/engineer_helmet" },
-    { "predicate": { "custom_model_data": 2010301 }, "model": "lorotarmory:item/armor/recon/recon_helmet" },
-    { "predicate": { "custom_model_data": 2010401 }, "model": "lorotarmory:item/armor/guard/guard_helmet" },
-    { "predicate": { "custom_model_data": 2010501 }, "model": "lorotarmory:item/armor/medic/medic_helmet" }
+    { "predicate": { "custom_model_data": 2010101 }, "model": "lorotarmory:item/armor/white/white_helmet" },
+    { "predicate": { "custom_model_data": 2010201 }, "model": "lorotarmory:item/armor/yellow/yellow_helmet" },
+    { "predicate": { "custom_model_data": 2010301 }, "model": "lorotarmory:item/armor/green/green_helmet" },
+    { "predicate": { "custom_model_data": 2010401 }, "model": "lorotarmory:item/armor/red/red_helmet" },
+    { "predicate": { "custom_model_data": 2010501 }, "model": "lorotarmory:item/armor/blue/blue_helmet" }
   ]
 }
