@@ -1,5 +1,5 @@
 # Lorot Armory RP
 
-Использованные шейдеры:
-- [VanillaDynamicEmissives](https://github.com/ShockMicro/VanillaDynamicEmissives) от [ShockMicro](https://github.com/ShockMicro)
-- [LessFancyPants](https://github.com/Godlander/lessfancypants) от [Godlander](https://github.com/Godlander)
+Used shaders:
+- [Emissive Library](https://modrinth.com/resourcepack/emissive-library) by [Bluebird](https://github.com/BluebirdYT)
+- [LessFancyPants](https://github.com/Godlander/lessfancypants) by [Godlander](https://github.com/Godlander)
