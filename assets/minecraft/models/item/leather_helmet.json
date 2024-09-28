@@ -4,11 +4,16 @@
     "layer0": "minecraft:item/leather_helmet"
   },
   "overrides": [
-    { "predicate": { "custom_model_data": 2010101 }, "model": "lorotarmory:item/armor/white/white_helmet" },
-    { "predicate": { "custom_model_data": 2010201 }, "model": "lorotarmory:item/armor/yellow/yellow_helmet" },
-    { "predicate": { "custom_model_data": 2010301 }, "model": "lorotarmory:item/armor/green/green_helmet" },
-    { "predicate": { "custom_model_data": 2010401 }, "model": "lorotarmory:item/armor/red/red_helmet" },
-    { "predicate": { "custom_model_data": 2010501 }, "model": "lorotarmory:item/armor/blue/blue_helmet" },
-    { "predicate": { "custom_model_data": 2010601 }, "model": "lorotarmory:item/armor/white/white_helmet_2" }
+    { "predicate": { "custom_model_data": 1000 }, "model": "lorotarmory:item/armor/base/helmet_ph1" },
+    { "predicate": { "custom_model_data": 1001 }, "model": "lorotarmory:item/armor/base/helmet_ph2" },
+
+    { "predicate": { "custom_model_data": 1010 }, "model": "lorotarmory:item/armor/501st/helmet_ph1" },
+    { "predicate": { "custom_model_data": 1011 }, "model": "lorotarmory:item/armor/501st/helmet_ph2" },
+
+    { "predicate": { "custom_model_data": 1020 }, "model": "lorotarmory:item/armor/212th/helmet_ph1" },
+    { "predicate": { "custom_model_data": 1021 }, "model": "lorotarmory:item/armor/212th/helmet_ph2" },
+    
+    { "predicate": { "custom_model_data": 1030 }, "model": "lorotarmory:item/armor/41st/helmet_ph1" },
+    { "predicate": { "custom_model_data": 1031 }, "model": "lorotarmory:item/armor/41st/helmet_ph2" }
   ]
 }

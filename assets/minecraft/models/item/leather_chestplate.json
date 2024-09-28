@@ -4,10 +4,9 @@
     "layer0": "minecraft:item/leather_chestplate"
   },
   "overrides": [
-    { "predicate": { "custom_model_data": 2020101 }, "model": "lorotarmory:item/armor/white/white_chestplate" },
-    { "predicate": { "custom_model_data": 2020201 }, "model": "lorotarmory:item/armor/yellow/yellow_chestplate" },
-    { "predicate": { "custom_model_data": 2020301 }, "model": "lorotarmory:item/armor/green/green_chestplate" },
-    { "predicate": { "custom_model_data": 2020401 }, "model": "lorotarmory:item/armor/red/red_chestplate" },
-    { "predicate": { "custom_model_data": 2020501 }, "model": "lorotarmory:item/armor/blue/blue_chestplate" }
+    { "predicate": { "custom_model_data": 1002 }, "model": "lorotarmory:item/armor/base/chestplate" },
+    { "predicate": { "custom_model_data": 1012 }, "model": "lorotarmory:item/armor/501st/chestplate" },
+    { "predicate": { "custom_model_data": 1022 }, "model": "lorotarmory:item/armor/212th/chestplate" },
+    { "predicate": { "custom_model_data": 1032 }, "model": "lorotarmory:item/armor/41st/chestplate" }
   ]
 }

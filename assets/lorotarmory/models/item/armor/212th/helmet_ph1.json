@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lorotarmory:item/armor/212th/helmet_ph1",
+    "layer1": "lorotarmory:item/armor/212th/helmet_ph1"
+  }
+}

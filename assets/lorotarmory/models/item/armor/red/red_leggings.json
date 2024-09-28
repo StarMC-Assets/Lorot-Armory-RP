@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "lorotarmory:item/armor/red/red_leggings",
-    "layer1": "lorotarmory:item/armor/red/red_leggings"
-  }
-}
