@@ -8,6 +8,7 @@
     { "predicate": { "custom_model_data": 1012 }, "model": "lorotarmory:item/armor/501st/chestplate" },
     { "predicate": { "custom_model_data": 1022 }, "model": "lorotarmory:item/armor/212th/chestplate" },
     { "predicate": { "custom_model_data": 1032 }, "model": "lorotarmory:item/armor/41st/chestplate" },
-    { "predicate": { "custom_model_data": 1042 }, "model": "lorotarmory:item/armor/katarn/chestplate" }
+    { "predicate": { "custom_model_data": 1042 }, "model": "lorotarmory:item/armor/21st/chestplate" },
+    { "predicate": { "custom_model_data": 1052 }, "model": "lorotarmory:item/armor/katarn/chestplate" }
   ]
 }
