@@ -1,0 +1,19 @@
+{
+  "hand_animation_on_swap": false,
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/leather_chestplate"
+    },
+    "entries": [
+      { "threshold": 1002, "model": { "type": "model", "model": "lorotarmory:item/armor/base/chestplate" }},
+      { "threshold": 1012, "model": { "type": "model", "model": "lorotarmory:item/armor/501st/chestplate" }},
+      { "threshold": 1022, "model": { "type": "model", "model": "lorotarmory:item/armor/212th/chestplate"}},
+      { "threshold": 1032, "model": { "type": "model", "model": "lorotarmory:item/armor/41st/chestplate"}},
+      { "threshold": 1042, "model": { "type": "model", "model": "lorotarmory:item/armor/21st/chestplate"}},
+      { "threshold": 1052, "model": { "type": "model", "model": "lorotarmory:item/armor/katarn/chestplate"}}
+    ]
+  }
+}

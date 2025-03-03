@@ -1,0 +1,41 @@
+{
+  "hand_animation_on_swap": false,
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/leather_leggings"
+    },
+    "entries": [
+      {
+        "threshold": 1003,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/base/leggings"
+        }
+      },
+      {
+        "threshold": 1023,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/212th/leggings"
+        }
+      },
+      {
+        "threshold": 1033,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/41st/leggings"
+        }
+      },
+      {
+        "threshold": 1043,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/21st/leggings"
+        }
+      }
+    ]
+  }
+}

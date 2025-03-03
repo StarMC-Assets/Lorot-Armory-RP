@@ -1,0 +1,83 @@
+{
+  "hand_animation_on_swap": false,
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/leather_helmet"
+    },
+    "entries": [
+      {
+        "threshold": 1000,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/base/helmet_ph1"
+        }
+      },
+      {
+        "threshold": 1001,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/base/helmet_ph2"
+        }
+      },
+      {
+        "threshold": 1010,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/501st/helmet_ph1"
+        }
+      },
+      {
+        "threshold": 1011,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/501st/helmet_ph2"
+        }
+      },
+      {
+        "threshold": 1020,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/212th/helmet_ph1"
+        }
+      },
+      {
+        "threshold": 1021,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/212th/helmet_ph2"
+        }
+      },
+      {
+        "threshold": 1030,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/41st/helmet_ph1"
+        }
+      },
+      {
+        "threshold": 1031,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/41st/helmet_ph2"
+        }
+      },
+      {
+        "threshold": 1040,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/21st/helmet"
+        }
+      },
+      {
+        "threshold": 1050,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/katarn/helmet"
+        }
+      }
+    ]
+  }
+}

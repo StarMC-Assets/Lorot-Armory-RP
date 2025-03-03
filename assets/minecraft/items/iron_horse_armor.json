@@ -1,0 +1,60 @@
+{
+  "hand_animation_on_swap": false,
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_horse_armor"
+    },
+    "entries": [
+      { "threshold": 1, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15" }},
+      { "threshold": 2, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15a" }},
+      { "threshold": 3, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5" }},
+      { "threshold": 4, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15x" }},
+      { "threshold": 5, "model": {"type": "model", "model": "lorotarmory:item/blasters/dp-23" }},
+      { "threshold": 6, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-17" }},
+      { "threshold": 7, "model": {"type": "model", "model": "lorotarmory:item/blasters/rps-6" }},
+      { "threshold": 8, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5s" }},
+      { "threshold": 9, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-60r" }},
+      { "threshold": 10, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5c" }},
+      { "threshold": 11, "model": {"type": "model", "model": "lorotarmory:item/blasters/rg-4d" }},
+
+      { "threshold": 1001, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15_scope" }},
+      { "threshold": 1002, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15a_scope" }},
+      { "threshold": 1003, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5_scope" }},
+      { "threshold": 1004, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15x_scope" }},
+      { "threshold": 1005, "model": {"type": "model", "model": "lorotarmory:item/blasters/dp-23_scope" }},
+      { "threshold": 1006, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-17_scope" }},
+      { "threshold": 1007, "model": {"type": "model", "model": "lorotarmory:item/blasters/rps-6_scope" }},
+      { "threshold": 1008, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5s_scope" }},
+      { "threshold": 1009, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-60r_scope" }},
+      { "threshold": 1010, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5c_scope" }},
+      { "threshold": 1011, "model": {"type": "model", "model": "lorotarmory:item/blasters/rg-4d_scope" }},
+
+      { "threshold": 2001, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15_sprint" }},
+      { "threshold": 2002, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15a_sprint" }},
+      { "threshold": 2003, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5_sprint" }},
+      { "threshold": 2004, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15x_sprint" }},
+      { "threshold": 2005, "model": {"type": "model", "model": "lorotarmory:item/blasters/dp-23_sprint" }},
+      { "threshold": 2006, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-17_sprint" }},
+      { "threshold": 2007, "model": {"type": "model", "model": "lorotarmory:item/blasters/rps-6_sprint" }},
+      { "threshold": 2008, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5s_sprint" }},
+      { "threshold": 2009, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-60r_sprint" }},
+      { "threshold": 2010, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5c_sprint" }},
+      { "threshold": 2011, "model": {"type": "model", "model": "lorotarmory:item/blasters/rg-4d_sprint" }},
+
+      { "threshold": 3001, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15_reload" }},
+      { "threshold": 3002, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15a_reload" }},
+      { "threshold": 3003, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5_reload" }},
+      { "threshold": 3004, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-15x_reload" }},
+      { "threshold": 3005, "model": {"type": "model", "model": "lorotarmory:item/blasters/dp-23_reload" }},
+      { "threshold": 3006, "model": {"type": "model", "model": "lorotarmory:item/blasters/dc-17_reload" }},
+      { "threshold": 3007, "model": {"type": "model", "model": "lorotarmory:item/blasters/rps-6_reload" }},
+      { "threshold": 3008, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5s_reload" }},
+      { "threshold": 3009, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-60r_reload" }},
+      { "threshold": 3010, "model": {"type": "model", "model": "lorotarmory:item/blasters/e-5c_reload" }},
+      { "threshold": 3011, "model": {"type": "model", "model": "lorotarmory:item/blasters/rg-4d_reload" }}
+    ]
+  }
+}

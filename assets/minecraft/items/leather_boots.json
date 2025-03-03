@@ -1,0 +1,20 @@
+{
+  "hand_animation_on_swap": false,
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/leather_boots"
+    },
+    "entries": [
+      {
+        "threshold": 1004,
+        "model": {
+          "type": "model",
+          "model": "lorotarmory:item/armor/base/boots"
+        }
+      }
+    ]
+  }
+}
