@@ -25,7 +25,7 @@ void main() {
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 	
 	// Emissive
-	if (color.a > 0.996 && color.a < 0.997) {
+	if (color.a > 0.988 && color.a < 0.989) {
 		fragColor = linear_fog(texture(Sampler0, texCoord0), vertexDistance, FogStart, FogEnd, FogColor);
 	}
 }
