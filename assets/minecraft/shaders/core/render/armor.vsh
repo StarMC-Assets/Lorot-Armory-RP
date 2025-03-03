@@ -15,7 +15,6 @@ uniform sampler2D Sampler2;
 
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
-uniform mat4 TextureMat;
 uniform int FogShape;
 
 uniform vec3 Light0_Direction;
@@ -25,7 +24,6 @@ out float vertexDistance;
 out vec4 vertexColor;
 out vec4 tintColor;
 out vec4 lightColor;
-out vec4 overlayColor;
 out vec2 uv;
 
 int toint(vec3 c) {
