@@ -8,41 +8,11 @@
       "model": "item/golden_horse_armor"
     },
     "entries": [
-      {
-        "threshold": 1,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/ammo/smallcartridge"
-        }
-      },
-      {
-        "threshold": 2,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/ammo/mediumcartridge"
-        }
-      },
-      {
-        "threshold": 3,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/ammo/bigcartridge"
-        }
-      },
-      {
-        "threshold": 4,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/ammo/rocket"
-        }
-      },
-      {
-        "threshold": 5,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/battery"
-        }
-      }
+      { "threshold": 1, "model": { "type": "model", "model": "lorotarmory:item/ammo/smallcartridge" }},
+      { "threshold": 2, "model": { "type": "model", "model": "lorotarmory:item/ammo/mediumcartridge" }},
+      { "threshold": 3, "model": { "type": "model", "model": "lorotarmory:item/ammo/bigcartridge" }},
+      { "threshold": 4, "model": { "type": "model", "model": "lorotarmory:item/ammo/rocket" }},
+      { "threshold": 5, "model": { "type": "model", "model": "lorotarmory:item/battery" }}
     ]
   }
 }

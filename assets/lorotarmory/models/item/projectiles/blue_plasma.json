@@ -1,0 +1,74 @@
+{
+	"credit": "Made by Lorot",
+	"textures": {
+		"0": "lorotarmory:item/projectiles",
+		"particle": "lorotarmory:item/projectiles"
+	},
+	"elements": [
+		{
+			"from": [8.25, 13, 8.2058],
+			"to": [7.75, 9.25, 7.7058],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.96231, 10.75, 7.9779]},
+			"faces": {
+				"north": {"uv": [9, 0, 10, 11], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [9, 0, 10, 11], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [9, 0, 10, 11], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [9, 0, 10, 11], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [10, 0, 11, 1], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [10, 0, 11, 1], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.375, 13.1275, 8.3308],
+			"to": [7.625, 9.1275, 7.5808],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.96231, 10.75, 7.9779]},
+			"faces": {
+				"north": {"uv": [6, 0, 7, 11], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [6, 0, 7, 11], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [6, 0, 7, 11], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [6, 0, 7, 11], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [7, 0, 8, 1], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [7, 0, 8, 1], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 11.25, 1.25],
+			"scale": [2.11, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 11.25, 1.25],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 11.25, 1.25],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 11.25, 1.25],
+			"scale": [2, 2, 2]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [0, -3, 0],
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [-40, -180, 37],
+			"translation": [1.75, 1.25, -2.5],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"head": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -1.75, -7.25],
+			"scale": [1.65, 1.7, 1.64]
+		},
+		"fixed": {
+			"rotation": [0, 0, 45],
+			"translation": [-4, 3.5, -2.5],
+			"scale": [3.61, 3.61, 3.61]
+		}
+	}
+}

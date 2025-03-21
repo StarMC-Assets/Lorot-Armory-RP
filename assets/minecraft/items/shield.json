@@ -3,18 +3,17 @@
 		"type": "minecraft:range_dispatch",
 		"property": "minecraft:custom_model_data",
 		"entries": [
-			{
-				"threshold": 1,
+			{ "threshold": 1,
 				"model": {
 					"type": "minecraft:condition",
 					"property": "minecraft:using_item",
 					"on_true": {
 						"type": "minecraft:model",
-						"model": "lorotarmory:item/shields/gr_shield/shield_blocking"
+						"model": "lorotarmory:item/shields/republic_shield/shield_blocking"
 					},
 					"on_false": {
 						"type": "minecraft:model",
-						"model": "lorotarmory:item/shields/gr_shield/shield"
+						"model": "lorotarmory:item/shields/republic_shield/shield"
 					}
 				}
 			}

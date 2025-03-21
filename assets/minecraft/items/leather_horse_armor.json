@@ -8,20 +8,8 @@
       "model": "item/leather_horse_armor"
     },
     "entries": [
-      {
-        "threshold": 1,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/grenades/v-1"
-        }
-      },
-      {
-        "threshold": 2,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/grenades/v-1i"
-        }
-      }
+      { "threshold": 1, "model": { "type": "model", "model": "lorotarmory:item/grenades/v-1" }},
+      { "threshold": 2, "model": { "type": "model", "model": "lorotarmory:item/grenades/v-1i" }}
     ]
   }
 }

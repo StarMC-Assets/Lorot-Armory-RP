@@ -8,13 +8,7 @@
       "model": "item/diamond_sword"
     },
     "entries": [
-      {
-        "threshold": 1,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/vibrosword"
-        }
-      }
+      { "threshold": 1, "model": { "type": "model", "model": "lorotarmory:item/vibrosword" }}
     ]
   }
 }

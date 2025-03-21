@@ -8,13 +8,7 @@
       "model": "item/leather_boots"
     },
     "entries": [
-      {
-        "threshold": 1004,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/armor/base/boots"
-        }
-      }
+      { "threshold": 1004, "model": { "type": "model", "model": "lorotarmory:item/armor/base/boots" }}
     ]
   }
 }

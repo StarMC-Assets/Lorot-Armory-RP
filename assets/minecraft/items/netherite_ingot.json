@@ -8,34 +8,10 @@
       "model": "item/netherite_ingot"
     },
     "entries": [
-      {
-        "threshold": 1,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/cuffs"
-        }
-      },
-      {
-        "threshold": 2,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/datapad"
-        }
-      },
-      {
-        "threshold": 3,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/backpack"
-        }
-      },
-      {
-        "threshold": 4,
-        "model": {
-          "type": "model",
-          "model": "lorotarmory:item/walkie_talkie"
-        }
-      }
+      { "threshold": 1, "model": { "type": "model", "model": "lorotarmory:item/cuffs" }},
+      { "threshold": 2, "model": { "type": "model", "model": "lorotarmory:item/datapad" }},
+      { "threshold": 3, "model": { "type": "model", "model": "lorotarmory:item/backpack" }},
+      { "threshold": 4, "model": { "type": "model", "model": "lorotarmory:item/walkie_talkie" }}
     ]
   }
 }
