@@ -1,0 +1,14 @@
+{
+	"context": "equippable",
+	"type": "custom_name",
+	"items": [
+		"minecraft:iron_helmet",
+		"minecraft:iron_chestplate",
+		"minecraft:iron_leggings",
+		"minecraft:iron_boots"
+	],
+	"modelPrefix": "base_phase1_armor/",
+	"parameters": {
+		"debug": true
+	}
+}
