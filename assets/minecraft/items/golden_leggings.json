@@ -65,7 +65,7 @@
           ],
           "fallback": {
             "type": "model",
-            "model": "item/leather_leggings"
+            "model": "item/golden_leggings"
           }
         }
       }

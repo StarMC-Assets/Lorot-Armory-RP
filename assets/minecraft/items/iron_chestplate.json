@@ -93,7 +93,7 @@
           ],
           "fallback": {
             "type": "model",
-            "model": "item/leather_chestplate"
+            "model": "item/iron_chestplate"
           }
         }
       }

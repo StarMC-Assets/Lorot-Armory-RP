@@ -1,23 +1,102 @@
 {
   "hand_animation_on_swap": false,
   "model": {
-    "type": "range_dispatch",
-    "property": "custom_model_data",
-    "fallback": {
-      "type": "model",
-      "model": "item/leather_helmet"
-    },
-    "entries": [
-      { "threshold": 1000, "model": { "type": "model", "model": "lorotarmory:item/armor/base/helmet_ph1" }},
-      { "threshold": 1001, "model": { "type": "model", "model": "lorotarmory:item/armor/base/helmet_ph2" }},
-      { "threshold": 1010, "model": { "type": "model", "model": "lorotarmory:item/armor/501st/helmet_ph1" }},
-      { "threshold": 1011, "model": { "type": "model", "model": "lorotarmory:item/armor/501st/helmet_ph2" }},
-      { "threshold": 1020, "model": { "type": "model", "model": "lorotarmory:item/armor/212th/helmet_ph1" }},
-      { "threshold": 1021, "model": { "type": "model", "model": "lorotarmory:item/armor/212th/helmet_ph2" }},
-      { "threshold": 1030, "model": { "type": "model", "model": "lorotarmory:item/armor/41st/helmet_ph1" }},
-      { "threshold": 1031, "model": { "type": "model", "model": "lorotarmory:item/armor/41st/helmet_ph2" }},
-      { "threshold": 1040, "model": { "type": "model", "model": "lorotarmory:item/armor/21st/helmet" }},
-      { "threshold": 1050, "model": { "type": "model", "model": "lorotarmory:item/armor/katarn/helmet" }}
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "ground",
+          "on_shelf",
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": "Clone Trooper Helmet Phase I",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/base/helmet_phase1"
+              }
+            },
+            {
+              "when": "Clone Trooper Helmet Phase II",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/base/helmet_phase2"
+              }
+            },
+            {
+              "when": "501st Legion Helmet Phase I",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/501st/helmet_phase1"
+              }
+            },
+            {
+              "when": "501st Legion Helmet Phase II",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/501st/helmet_phase2"
+              }
+            },
+            {
+              "when": "212th Attack Battalion Helmet Phase I",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/212th/helmet_phase1"
+              }
+            },
+            {
+              "when": "212th Attack Battalion Helmet Phase II",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/212th/helmet_phase2"
+              }
+            },
+            {
+              "when": "41st Elite Corps Helmet Phase I",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/41st/helmet_phase1"
+              }
+            },
+            {
+              "when": "41st Elite Corps Helmet Phase II",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/41st/helmet_phase2"
+              }
+            },
+            {
+              "when": "21st Nova Corps Helmet",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/21st/helmet"
+              }
+            },
+            {
+              "when": "Republic Commando Helmet",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/katarn/helmet"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_helmet"
+          }
+        }
+      }
     ]
   }
 }

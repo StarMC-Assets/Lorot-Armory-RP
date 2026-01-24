@@ -32,7 +32,7 @@
 		"minecraft:diamond_boots",
 		"minecraft:netherite_boots"
 	],
-	"modelPrefix": "41st_armor/",
+	"modelPrefix": "base_armor/",
 	"parameters": {
 		"debug": true
 	}

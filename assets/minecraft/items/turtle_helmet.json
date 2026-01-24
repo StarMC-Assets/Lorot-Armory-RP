@@ -21,79 +21,79 @@
           "component": "minecraft:custom_name",
           "cases": [
             {
-              "when": "Clone Trooper Chestplate Phase I",
+              "when": "Clone Trooper Helmet Phase I",
               "model": {
                 "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/base/chestplate"
+                "model": "lorotarmory:item/armor/base/helmet_phase1"
               }
             },
             {
-              "when": "Clone Trooper Chestplate Phase II",
+              "when": "Clone Trooper Helmet Phase II",
               "model": {
                 "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/base/chestplate"
+                "model": "lorotarmory:item/armor/base/helmet_phase2"
               }
             },
             {
-              "when": "501st Legion Chestplate Phase I",
+              "when": "501st Legion Helmet Phase I",
               "model": {
                 "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/501st/chestplate_phase1"
+                "model": "lorotarmory:item/armor/501st/helmet_phase1"
               }
             },
             {
-              "when": "501st Legion Chestplate Phase II",
+              "when": "501st Legion Helmet Phase II",
               "model": {
                 "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/501st/chestplate_phase2"
+                "model": "lorotarmory:item/armor/501st/helmet_phase2"
               }
             },
             {
-              "when": "212th Attack Battalion Chestplate Phase I",
+              "when": "212th Attack Battalion Helmet Phase I",
               "model": {
                 "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/212th/chestplate_phase1"
+                "model": "lorotarmory:item/armor/212th/helmet_phase1"
               }
             },
             {
-              "when": "212th Attack Battalion Chestplate Phase II",
+              "when": "212th Attack Battalion Helmet Phase II",
               "model": {
                 "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/212th/chestplate_phase2"
+                "model": "lorotarmory:item/armor/212th/helmet_phase2"
               }
             },
             {
-              "when": "41st Elite Corps Chestplate Phase I",
+              "when": "41st Elite Corps Helmet Phase I",
               "model": {
                 "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/41st/chestplate_phase1"
+                "model": "lorotarmory:item/armor/41st/helmet_phase1"
               }
             },
             {
-              "when": "41st Elite Corps Chestplate Phase II",
+              "when": "41st Elite Corps Helmet Phase II",
               "model": {
                 "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/41st/chestplate_phase2"
+                "model": "lorotarmory:item/armor/41st/helmet_phase2"
               }
             },
             {
-              "when": "21st Nova Corps Chestplate",
+              "when": "21st Nova Corps Helmet",
               "model": {
                 "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/21st/chestplate"
+                "model": "lorotarmory:item/armor/21st/helmet"
               }
             },
             {
-              "when": "Republic Commando Chestplate",
+              "when": "Republic Commando Helmet",
               "model": {
                 "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/katarn/chestplate"
+                "model": "lorotarmory:item/armor/katarn/helmet"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "item/leather_chestplate"
+            "model": "item/turtle_helmet"
           }
         }
       }

@@ -1,14 +1,74 @@
 {
   "hand_animation_on_swap": false,
   "model": {
-    "type": "range_dispatch",
-    "property": "custom_model_data",
-    "fallback": {
-      "type": "model",
-      "model": "item/leather_boots"
-    },
-    "entries": [
-      { "threshold": 1004, "model": { "type": "model", "model": "lorotarmory:item/armor/base/boots" }}
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "ground",
+          "on_shelf",
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": "Clone Trooper Boots",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/base/boots"
+              }
+            },
+            {
+              "when": "501st Legion Boots",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/501st/boots"
+              }
+            },
+            {
+              "when": "212th Attack Battalion Boots",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/212th/boots"
+              }
+            },
+            {
+              "when": "41st Elite Corps Boots",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/41st/boots"
+              }
+            },
+            {
+              "when": "21st Nova Corps Boots",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/21st/boots"
+              }
+            },
+            {
+              "when": "Republic Commando Boots",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/armor/katarn/boots"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_boots"
+          }
+        }
+      }
     ]
   }
 }
