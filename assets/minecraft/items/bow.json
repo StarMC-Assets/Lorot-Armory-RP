@@ -1,0 +1,162 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "DC-15 Blaster Rifle",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/dc-15"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/dc-15_scope"
+          }
+        }
+      },
+      {
+        "when": "DC-15A Blaster Carbine",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/dc-15a"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/dc-15a_scope"
+          }
+        }
+      },
+      {
+        "when": "DC-15X Sniper Rifle",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/dc-15x"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/dc-15x_scope"
+          }
+        }
+      },
+      {
+        "when": "DC-17 Hand Blaster",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/dc-17"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/dc-17_scope"
+          }
+        }
+      },
+      {
+        "when": "E-5 Blaster Rifle",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/e-5"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/e-5_scope"
+          }
+        }
+      },
+      {
+        "when": "E-5S Sniper Rifle",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/e-5s"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/e-5s_scope"
+          }
+        }
+      },
+      {
+        "when": "E-5C Heavy Blaster Rifle",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/e-5c"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/e-5c_scope"
+          }
+        }
+      },
+      {
+        "when": "RG-4D Blaster Pistol",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/rg-4d"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "lorotarmory:item/blasters/rg-4d_scope"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bow"
+      },
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:use_duration",
+        "scale": 0.05,
+        "entries": [
+          {
+            "threshold": 0.65,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bow_pulling_1"
+            }
+          },
+          {
+            "threshold": 0.9,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bow_pulling_2"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bow_pulling_0"
+        }
+      }
+    }
+  }
+}

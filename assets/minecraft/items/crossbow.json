@@ -1,0 +1,206 @@
+{
+  "hand_animation_on_swap": false,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "RPS-6 Rocket Launcher",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/blasters/rps-6_scope"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/blasters/rps-6_scope"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "lorotarmory:item/blasters/rps-6"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "lorotarmory:item/blasters/rps-6"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/blasters/rps-6"
+              }
+            }
+          }
+        }
+      },
+      {
+        "when": "E-60R Missile Launcher",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/blasters/e-60r_scope"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/blasters/e-60r_scope"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "lorotarmory:item/blasters/e-60r"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "lorotarmory:item/blasters/e-60r"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/blasters/e-60r"
+              }
+            }
+          }
+        }
+      },
+      {
+        "when": "DP-23 Scatter Blaster",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/blasters/dp-23_scope"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/blasters/dp-23_scope"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "lorotarmory:item/blasters/dp-23"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "lorotarmory:item/blasters/dp-23"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "lorotarmory:item/blasters/dp-23"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:charge_type",
+      "cases": [
+        {
+          "when": "arrow",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/crossbow_arrow"
+          }
+        },
+        {
+          "when": "rocket",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/crossbow_firework"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "property": "minecraft:using_item",
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow"
+        },
+        "on_true": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:crossbow/pull",
+          "entries": [
+            {
+              "threshold": 0.58,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow_pulling_1"
+              }
+            },
+            {
+              "threshold": 1.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow_pulling_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/crossbow_pulling_0"
+          }
+        }
+      }
+    }
+  }
+}

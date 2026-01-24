@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Lorot",
 	"texture_size": [32, 32],
 	"textures": {
@@ -161,12 +162,12 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_righthand": {
-			"translation": [-8.96, 5.82, 1.5],
-			"scale": [0.8, 0.8, 0.8]
+			"rotation": [22.24, 7.84, 3.44],
+			"translation": [-5.556, 3.5, -5]
 		},
 		"firstperson_lefthand": {
-			"translation": [-8.96, 5.82, 1.5],
-			"scale": [0.8, 0.8, 0.8]
+			"rotation": [22.24, 7.84, 3.44],
+			"translation": [-5.556, 3.5, -5]
 		},
 		"ground": {
 			"rotation": [0, 0, 90],
