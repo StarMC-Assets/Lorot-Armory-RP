@@ -1,0 +1,17 @@
+{
+	"context": "equippable",
+	"type": "custom_name",
+	"items": [
+		"minecraft:leather_chestplate",
+		"minecraft:chainmail_chestplate",
+		"minecraft:golden_chestplate",
+		"minecraft:copper_chestplate",
+		"minecraft:iron_chestplate",
+		"minecraft:diamond_chestplate",
+		"minecraft:netherite_chestplate"
+	],
+	"modelPrefix": "501st_armor/chestplates/",
+	"parameters": {
+		"debug": true
+	}
+}

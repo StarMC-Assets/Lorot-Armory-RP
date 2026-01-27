@@ -1,0 +1,16 @@
+{
+	"context": "equippable",
+	"type": "custom_name",
+	"items": [
+		"minecraft:leather_helmet",
+		"minecraft:chainmail_helmet",
+		"minecraft:golden_helmet",
+		"minecraft:copper_helmet",
+		"minecraft:iron_helmet",
+		"minecraft:diamond_helmet"
+	],
+	"modelPrefix": "base_armor/helmets/",
+	"parameters": {
+		"debug": true
+	}
+}
