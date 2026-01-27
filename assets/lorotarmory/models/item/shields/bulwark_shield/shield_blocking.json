@@ -2,8 +2,8 @@
 	"credit": "Made by Wenard",
 	"texture_size": [64, 64],
 	"textures": {
-		"2": "lorotarmory:item/shields/bulwark_shield",
-		"particle": "lorotarmory:item/shields/bulwark_shield"
+		"2": "lorotarmory:item/shields/bulwark_shield/bulwark_shield",
+		"particle": "lorotarmory:item/shields/bulwark_shield/bulwark_shield"
 	},
 	"elements": [
 		{

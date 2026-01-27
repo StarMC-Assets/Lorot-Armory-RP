@@ -1,0 +1,7 @@
+  {
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lorotarmory:item/shields/bulwark_shield/shield_icon",
+    "layer1": "lorotarmory:item/shields/bulwark_shield/shield_icon"
+  }
+}

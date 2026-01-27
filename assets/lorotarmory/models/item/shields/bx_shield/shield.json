@@ -3,8 +3,8 @@
 	"credit": "Made by Lorot",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "lorotarmory:item/shields/bx_shield",
-		"particle": "lorotarmory:item/shields/bx_shield"
+		"0": "lorotarmory:item/shields/bx_shield/bx_shield",
+		"particle": "lorotarmory:item/shields/bx_shield/bx_shield"
 	},
 	"elements": [
 		{
