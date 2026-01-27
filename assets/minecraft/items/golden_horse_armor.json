@@ -1,19 +1,55 @@
 {
-  "hand_animation_on_swap": false,
   "model": {
-    "type": "range_dispatch",
-    "property": "custom_model_data",
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Small Cartridge",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/ammo/smallcartridge"
+        }
+      },
+      {
+        "when": "Medium Cartridge",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/ammo/mediumcartridge"
+        }
+      },
+      {
+        "when": "Big Cartridge",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/ammo/bigcartridge"
+        }
+      },
+      {
+        "when": "Rocket",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/ammo/rocket"
+        }
+      },
+      {
+        "when": "Battery",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/battery"
+        }
+      },
+      {
+        "when": "Bacta Injection",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/bacta_injection"
+        }
+      }
+    ],
     "fallback": {
-      "type": "model",
+      "type": "minecraft:model",
       "model": "item/golden_horse_armor"
-    },
-    "entries": [
-      { "threshold": 1, "model": { "type": "model", "model": "lorotarmory:item/ammo/smallcartridge" }},
-      { "threshold": 2, "model": { "type": "model", "model": "lorotarmory:item/ammo/mediumcartridge" }},
-      { "threshold": 3, "model": { "type": "model", "model": "lorotarmory:item/ammo/bigcartridge" }},
-      { "threshold": 4, "model": { "type": "model", "model": "lorotarmory:item/ammo/rocket" }},
-      { "threshold": 5, "model": { "type": "model", "model": "lorotarmory:item/battery" }},
-      { "threshold": 6, "model": { "type": "model", "model": "lorotarmory:item/bacta_injection" }}
-    ]
+    }
   }
 }
