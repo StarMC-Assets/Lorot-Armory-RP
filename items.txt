@@ -32,6 +32,7 @@ Rocket | Firework OR Arrow OR Golden horse armor
 Battery | Arrow OR Golden horse armor
 
 Misc:
+Vibrosword | Any sword
 Bacta Injection | Any potion OR Golden horse armor
 Walkie Talkie | Netherite ingot
 Clone Trooper Backpack | Bundle OR Netherite ingot
