@@ -5,37 +5,37 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Cuffs",
+        "when": "Small Cartridge",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/misc/cuffs"
+          "model": "lorotarmory:item/ammo/smallcartridge"
         }
       },
       {
-        "when": "Datapad",
+        "when": "Medium Cartridge",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/misc/datapad"
+          "model": "lorotarmory:item/ammo/mediumcartridge"
         }
       },
       {
-        "when": "Clone Trooper Backpack",
+        "when": "Big Cartridge",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/misc/backpack"
+          "model": "lorotarmory:item/ammo/bigcartridge"
         }
       },
       {
-        "when": "Walkie Talkie",
+        "when": "Rocket",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/misc/walkie_talkie"
+          "model": "lorotarmory:item/ammo/rocket"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "item/netherite_ingot"
+      "model": "item/arrow"
     }
   }
 }

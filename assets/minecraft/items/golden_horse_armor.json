@@ -36,7 +36,7 @@
         "when": "Battery",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/misc/battery"
+          "model": "lorotarmory:item/ammo/battery"
         }
       },
       {
