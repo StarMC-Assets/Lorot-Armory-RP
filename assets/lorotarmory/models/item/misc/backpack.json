@@ -2,7 +2,7 @@
 	"credit": "Made with Lorot",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "lorotarmory:item/backpack"
+		"1": "lorotarmory:item/misc/backpack"
 	},
 	"elements": [
 		{

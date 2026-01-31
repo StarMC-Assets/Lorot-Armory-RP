@@ -2,8 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made by Lorot",
 	"textures": {
-		"0": "lorotarmory:item/bacta_injection",
-		"particle": "lorotarmory:item/bacta_injection"
+		"0": "lorotarmory:item/misc/bacta_injection",
+		"particle": "lorotarmory:item/misc/bacta_injection"
 	},
 	"elements": [
 		{

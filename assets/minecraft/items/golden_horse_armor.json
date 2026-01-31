@@ -36,14 +36,14 @@
         "when": "Battery",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/battery"
+          "model": "lorotarmory:item/misc/battery"
         }
       },
       {
         "when": "Bacta Injection",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/bacta_injection"
+          "model": "lorotarmory:item/misc/bacta_injection"
         }
       }
     ],

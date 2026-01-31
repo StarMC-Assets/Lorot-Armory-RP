@@ -2,8 +2,8 @@
 	"credit": "Made with Lorot",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "lorotarmory:item/cuffs",
-		"particle": "lorotarmory:item/cuffs"
+		"0": "lorotarmory:item/misc/cuffs",
+		"particle": "lorotarmory:item/misc/cuffs"
 	},
 	"elements": [
 		{

@@ -2,8 +2,8 @@
 	"credit": "Made with Lorot",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "lorotarmory:item/battery",
-		"particle": "lorotarmory:item/battery"
+		"0": "lorotarmory:item/misc/battery",
+		"particle": "lorotarmory:item/misc/battery"
 	},
 	"elements": [
 		{

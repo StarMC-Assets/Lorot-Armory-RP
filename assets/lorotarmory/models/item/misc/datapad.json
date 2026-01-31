@@ -2,8 +2,8 @@
 	"credit": "Made with Lorot",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "lorotarmory:item/datapad",
-		"particle": "lorotarmory:item/datapad"
+		"0": "lorotarmory:item/misc/datapad",
+		"particle": "lorotarmory:item/misc/datapad"
 	},
 	"elements": [
 		{

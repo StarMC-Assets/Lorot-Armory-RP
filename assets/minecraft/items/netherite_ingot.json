@@ -8,28 +8,28 @@
         "when": "Cuffs",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/cuffs"
+          "model": "lorotarmory:item/misc/cuffs"
         }
       },
       {
         "when": "Datapad",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/datapad"
+          "model": "lorotarmory:item/misc/datapad"
         }
       },
       {
         "when": "Backpack",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/backpack"
+          "model": "lorotarmory:item/misc/backpack"
         }
       },
       {
         "when": "Walkie Talkie",
         "model": {
           "type": "minecraft:model",
-          "model": "lorotarmory:item/walkie_talkie"
+          "model": "lorotarmory:item/misc/walkie_talkie"
         }
       }
     ],
