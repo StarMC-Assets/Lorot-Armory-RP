@@ -21,14 +21,7 @@
           "component": "minecraft:custom_name",
           "cases": [
             {
-              "when": "Clone Trooper Chestplate Phase I",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/base/chestplate"
-              }
-            },
-            {
-              "when": "Clone Trooper Chestplate Phase II",
+              "when": "Clone Trooper Chestplate",
               "model": {
                 "type": "minecraft:model",
                 "model": "lorotarmory:item/armor/base/chestplate"
