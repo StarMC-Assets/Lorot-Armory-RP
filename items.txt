@@ -1,0 +1,76 @@
+To get a custom item, rename it to the desired item on the anvil. The list is given in the format: Name | Item.
+Example: For the DC-15 Blaster Rifle, rename the bow to "DC-15 Blaster Rifle" (Without quotes).
+
+Guns:
+DC-15 Blaster Rifle | Bow OR Iron horse armor
+DC-15A Blaster Carbine | Bow OR Iron horse armor
+DC-15X Sniper Rifle | Bow OR Iron horse armor
+DC-17 Hand Blaster | Bow OR Iron horse armor
+
+E-5C Heavy Blaster Rifle | Bow OR Iron horse armor
+E-5 Blaster Rifle | Bow OR Iron horse armor
+E-5S Sniper Rifle | Bow OR Iron horse armor
+RG-4D Blaster Pistol | Bow OR Iron horse armor
+
+DP-23 Scatter Blaster | Crossbow OR Iron horse armor
+RPS-6 Rocket Launcher | Crossbow OR Iron horse armor
+E-60R Missile Launcher | Crossbow OR Iron horse armor
+
+Grenades:
+V-1 Thermal Detonator | Any splash potion OR Any lingering potion OR Leather horse armor
+Impact Grenade | Any splash potion OR Any lingering potion OR Leather horse armor
+
+Shields:
+M3 Bulwark Blast Shield | Shield
+Droid commando personal shield | Shield
+
+Ammo:
+Small Cartridge | Arrow OR Golden horse armor
+Medium Cartridge | Arrow OR Golden horse armor
+Big Cartridge | Arrow OR Golden horse armor
+Rocket | Firework OR Arrow OR Golden horse armor
+Battery | Arrow OR Golden horse armor
+
+Misc:
+Bacta Injection | Any potion OR Golden horse armor
+Walkie Talkie | Netherite ingot
+Clone Trooper Backpack | Bundle OR Netherite ingot
+Datapad | Writable book OR Netherite ingot
+Cuffs | Netherite ingot
+
+Armor:
+Clone Trooper Helmet Phase I | Any helmet
+Clone Trooper Helmet Phase II | Any helmet
+501st Legin Helmet Phase I | Any helmet
+501st Legin Helmet Phase II | Any helmet
+212th Attack Battalion Helmet Phase I | Any helmet
+212th Attack Battalion Helmet Phase II | Any helmet
+41st Elite Corps Helmet Phase I | Any helmet
+41st Elite Corps Helmet Phase II | Any helmet
+21st Nova Corps Helmet | Any helmet
+Republic Commando Helmet | Any helmet
+
+Clone Trooper Chestplate Phase I | Any chestplate
+Clone Trooper Chestplate Phase II | Any chestplate
+501st Legin Chestplate Phase I | Any chestplate
+501st Legin Chestplate Phase II | Any chestplate
+212th Attack Battalion Chestplate Phase I | Any chestplate
+212th Attack Battalion Chestplate Phase II | Any chestplate
+41st Elite Corps Chestplate Phase I | Any chestplate
+41st Elite Corps Chestplate Phase II | Any chestplate
+21st Nova Corps Chestplate | Any chestplate
+Republic Commando Chestplate | Any chestplate
+
+Clone Trooper Leggings | Any leggings
+501st Legin Leggings | Any leggings
+212th Attack Battalion Leggings | Any leggings
+41st Elite Corps Leggings | Any leggings
+21st Nova Corps Leggings | Any leggings
+Republic Commando Leggings | Any leggings
+
+Clone Trooper Boots | Any boots
+501st Legin Boots | Any boots
+212th Attack Battalion Boots | Any boots
+41st Elite Corps Boots | Any boots
+21st Nova Corps Boots | Any boots
+Republic Commando Boots | Any boots
