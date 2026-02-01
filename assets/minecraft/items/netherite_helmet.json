@@ -1,102 +1,83 @@
 {
-  "hand_animation_on_swap": false,
   "model": {
     "type": "minecraft:select",
-    "property": "minecraft:display_context",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": [
-          "gui",
-          "ground",
-          "on_shelf",
-          "firstperson_righthand",
-          "firstperson_lefthand",
-          "thirdperson_righthand",
-          "thirdperson_lefthand",
-          "fixed"
-        ],
+        "when": "Clone Trooper Helmet Phase I",
         "model": {
-          "type": "minecraft:select",
-          "property": "minecraft:component",
-          "component": "minecraft:custom_name",
-          "cases": [
-            {
-              "when": "Clone Trooper Helmet Phase I",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/base/helmet_phase1"
-              }
-            },
-            {
-              "when": "Clone Trooper Helmet Phase II",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/base/helmet_phase2"
-              }
-            },
-            {
-              "when": "501st Legion Helmet Phase I",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/501st/helmet_phase1"
-              }
-            },
-            {
-              "when": "501st Legion Helmet Phase II",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/501st/helmet_phase2"
-              }
-            },
-            {
-              "when": "212th Attack Battalion Helmet Phase I",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/212th/helmet_phase1"
-              }
-            },
-            {
-              "when": "212th Attack Battalion Helmet Phase II",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/212th/helmet_phase2"
-              }
-            },
-            {
-              "when": "41st Elite Corps Helmet Phase I",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/41st/helmet_phase1"
-              }
-            },
-            {
-              "when": "41st Elite Corps Helmet Phase II",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/41st/helmet_phase2"
-              }
-            },
-            {
-              "when": "21st Nova Corps Helmet",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/21st/helmet"
-              }
-            },
-            {
-              "when": "Republic Commando Helmet",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/katarn/helmet"
-              }
-            }
-          ],
-          "fallback": {
-            "type": "model",
-            "model": "item/netherite_helmet"
-          }
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/base/helmet_phase1"
+        }
+      },
+      {
+        "when": "Clone Trooper Helmet Phase II",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/base/helmet_phase2"
+        }
+      },
+      {
+        "when": "501st Legion Helmet Phase I",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/501st/helmet_phase1"
+        }
+      },
+      {
+        "when": "501st Legion Helmet Phase II",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/501st/helmet_phase2"
+        }
+      },
+      {
+        "when": "212th Attack Battalion Helmet Phase I",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/212th/helmet_phase1"
+        }
+      },
+      {
+        "when": "212th Attack Battalion Helmet Phase II",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/212th/helmet_phase2"
+        }
+      },
+      {
+        "when": "41st Elite Corps Helmet Phase I",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/41st/helmet_phase1"
+        }
+      },
+      {
+        "when": "41st Elite Corps Helmet Phase II",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/41st/helmet_phase2"
+        }
+      },
+      {
+        "when": "21st Nova Corps Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/21st/helmet"
+        }
+      },
+      {
+        "when": "Republic Commando Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/katarn/helmet"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/netherite_helmet"
+    }
   }
 }

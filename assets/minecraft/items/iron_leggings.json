@@ -1,74 +1,55 @@
 {
-  "hand_animation_on_swap": false,
   "model": {
     "type": "minecraft:select",
-    "property": "minecraft:display_context",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": [
-          "gui",
-          "ground",
-          "on_shelf",
-          "firstperson_righthand",
-          "firstperson_lefthand",
-          "thirdperson_righthand",
-          "thirdperson_lefthand",
-          "fixed"
-        ],
+        "when": "Clone Trooper Leggings",
         "model": {
-          "type": "minecraft:select",
-          "property": "minecraft:component",
-          "component": "minecraft:custom_name",
-          "cases": [
-            {
-              "when": "Clone Trooper Leggings",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/base/leggings"
-              }
-            },
-            {
-              "when": "501st Legion Leggings",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/501st/leggings"
-              }
-            },
-            {
-              "when": "212th Attack Battalion Leggings",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/212th/leggings"
-              }
-            },
-            {
-              "when": "41st Elite Corps Leggings",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/41st/leggings"
-              }
-            },
-            {
-              "when": "21st Nova Corps Leggings",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/21st/leggings"
-              }
-            },
-            {
-              "when": "Republic Commando Leggings",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/katarn/leggings"
-              }
-            }
-          ],
-          "fallback": {
-            "type": "model",
-            "model": "item/iron_leggings"
-          }
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/base/leggings"
+        }
+      },
+      {
+        "when": "501st Legion Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/501st/leggings"
+        }
+      },
+      {
+        "when": "212th Attack Battalion Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/212th/leggings"
+        }
+      },
+      {
+        "when": "41st Elite Corps Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/41st/leggings"
+        }
+      },
+      {
+        "when": "21st Nova Corps Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/21st/leggings"
+        }
+      },
+      {
+        "when": "Republic Commando Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/katarn/leggings"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/iron_leggings"
+    }
   }
 }

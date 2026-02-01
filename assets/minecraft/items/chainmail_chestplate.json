@@ -1,95 +1,76 @@
 {
-  "hand_animation_on_swap": false,
   "model": {
     "type": "minecraft:select",
-    "property": "minecraft:display_context",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": [
-          "gui",
-          "ground",
-          "on_shelf",
-          "firstperson_righthand",
-          "firstperson_lefthand",
-          "thirdperson_righthand",
-          "thirdperson_lefthand",
-          "fixed"
-        ],
+        "when": "Clone Trooper Chestplate",
         "model": {
-          "type": "minecraft:select",
-          "property": "minecraft:component",
-          "component": "minecraft:custom_name",
-          "cases": [
-            {
-              "when": "Clone Trooper Chestplate",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/base/chestplate"
-              }
-            },
-            {
-              "when": "501st Legion Chestplate Phase I",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/501st/chestplate_phase1"
-              }
-            },
-            {
-              "when": "501st Legion Chestplate Phase II",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/501st/chestplate_phase2"
-              }
-            },
-            {
-              "when": "212th Attack Battalion Chestplate Phase I",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/212th/chestplate_phase1"
-              }
-            },
-            {
-              "when": "212th Attack Battalion Chestplate Phase II",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/212th/chestplate_phase2"
-              }
-            },
-            {
-              "when": "41st Elite Corps Chestplate Phase I",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/41st/chestplate_phase1"
-              }
-            },
-            {
-              "when": "41st Elite Corps Chestplate Phase II",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/41st/chestplate_phase2"
-              }
-            },
-            {
-              "when": "21st Nova Corps Chestplate",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/21st/chestplate"
-              }
-            },
-            {
-              "when": "Republic Commando Chestplate",
-              "model": {
-                "type": "minecraft:model",
-                "model": "lorotarmory:item/armor/katarn/chestplate"
-              }
-            }
-          ],
-          "fallback": {
-            "type": "model",
-            "model": "item/chainmail_chestplate"
-          }
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/base/chestplate"
+        }
+      },
+      {
+        "when": "501st Legion Chestplate Phase I",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/501st/chestplate_phase1"
+        }
+      },
+      {
+        "when": "501st Legion Chestplate Phase II",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/501st/chestplate_phase2"
+        }
+      },
+      {
+        "when": "212th Attack Battalion Chestplate Phase I",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/212th/chestplate_phase1"
+        }
+      },
+      {
+        "when": "212th Attack Battalion Chestplate Phase II",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/212th/chestplate_phase2"
+        }
+      },
+      {
+        "when": "41st Elite Corps Chestplate Phase I",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/41st/chestplate_phase1"
+        }
+      },
+      {
+        "when": "41st Elite Corps Chestplate Phase II",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/41st/chestplate_phase2"
+        }
+      },
+      {
+        "when": "21st Nova Corps Chestplate",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/21st/chestplate"
+        }
+      },
+      {
+        "when": "Republic Commando Chestplate",
+        "model": {
+          "type": "minecraft:model",
+          "model": "lorotarmory:item/armor/katarn/chestplate"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/chainmail_chestplate"
+    }
   }
 }
